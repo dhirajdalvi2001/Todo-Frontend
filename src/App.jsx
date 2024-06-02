@@ -110,7 +110,7 @@ function App() {
             </button>
           </div>
         </form>
-        <div className="flex flex-col gap-4 text-white text-xs md:text-sm">
+        <div className="flex flex-col gap-4 text-white text-xs md:text-sm h-full overflow-y-scroll">
           {todos.map((todo) => {
             return (
               <div
